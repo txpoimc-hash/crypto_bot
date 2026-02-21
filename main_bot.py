@@ -35,7 +35,7 @@ async def main():
     
     # Configurazione
     config = {
-        'telegram_token': 'YOUR_TELEGRAM_BOT_TOKEN',
+        'telegram_token': '8132230735:AAH0wdfjmJVkwagY3TOUhxZe_o1IVvbAQTg',
         'redis_url': 'redis://localhost:6379/0',
         'binance_api_key': '',
         'binance_api_secret': '',
