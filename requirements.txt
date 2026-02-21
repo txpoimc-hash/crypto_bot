@@ -13,7 +13,7 @@ pandas==2.2.2
 numpy==1.26.4
 
 # Technical Analysis
-TA-Lib==0.5.2  # Per analisi tecnica crypto
+pandas-ta==0.3.14b0  # Per analisi tecnica crypto
 
 # Database
 redis==5.0.4
