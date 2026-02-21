@@ -1,0 +1,33 @@
+# requirements.txt per CryptoBot e CasinoBot
+
+# Telegram
+python-telegram-bot==20.7
+python-telegram-bot[job-queue]
+
+# HTTP e API
+aiohttp==3.9.5
+requests==2.31.0
+
+# Data processing
+pandas==2.2.2
+numpy==1.26.4
+
+# Technical Analysis
+TA-Lib==0.5.2  # Per analisi tecnica crypto
+
+# Database
+redis==5.0.4
+async-timeout==4.0.3
+
+# Utility
+python-dotenv==1.0.1
+uuid6==2024.1.12
+python-dateutil==2.9.0.post0
+pytz==2024.1
+
+# Per TA-Lib su Windows (alternativa)
+# pip install TA-Lib-0.5.2-cp312-cp312-win_amd64.whl
+# Oppure usa: pip install pandas-ta  # Implementazione Python pura
+
+# Logging
+loguru==0.7.2
